@@ -1,8 +1,27 @@
 aid: delfi-diagnostics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/delfi-diagnostics.png
 name: Delfi Diagnostics
-description: Delfi Diagnostics is a company surfaced as a portfolio company of menlo-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: DELFI Diagnostics is a precision oncology company, founded in 2019 and built on research
+  from the Johns Hopkins Kimmel Cancer Center, that combines machine learning with genome-wide analysis
+  of cell-free DNA fragmentation patterns (an approach it calls DNA fragmentomics, or "fragmentomes")
+  to develop accessible, blood-based cancer screening and treatment-monitoring tests. Its first
+  commercial product, FirstLook Lung, is a laboratory-developed liquid biopsy screening test for
+  lung cancer that runs from a simple blood draw and reports a high negative predictive value; the
+  company also offers DELFI-TF for treatment monitoring and partners with health systems and
+  pharmaceutical researchers. DELFI operates a CLIA laboratory and is headquartered in Palo Alto,
+  California. This profile tracks the company in the API Evangelist network; DELFI publishes no public
+  developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/delfi-diagnostics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Diagnostics
+- Precision Oncology
+- Liquid Biopsy
+- Cancer Screening
+- Genomics
+- Machine Learning
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/delfi-diagnostics-domain-security.yml
 - type: Website
   url: https://delfidiagnostics.com
+- type: About
+  url: https://delfidiagnostics.com/about-us/
+- type: Blog
+  url: https://delfidiagnostics.com/about-us/blog/
+- type: Newsroom
+  url: https://delfidiagnostics.com/about-us/newsroom/
+- type: Support
+  url: https://delfidiagnostics.com/contact/
+- type: PrivacyPolicy
+  url: https://delfidiagnostics.com/privacy-policy/
+- type: TermsOfService
+  url: https://delfidiagnostics.com/terms/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/delfi-diagnostics/
+- type: YouTube
+  url: https://www.youtube.com/channel/UCv7e-20ef3HAJ4urkQ3porw
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
